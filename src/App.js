@@ -26,8 +26,8 @@ function App() {
   }
   return (
     <>
-      <PollDisplay  question={question} choices={choices}/>
-      <UserParticipation set={set} choices={choices}/>  
+      <PollDisplay  question={question} choices={choices} set={set}/>
+      {/* <UserParticipation set={set} choices={choices}/>   */}
       
     </>
     );
