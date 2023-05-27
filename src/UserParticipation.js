@@ -30,7 +30,7 @@ function UserParticipation(props) {
        </h3>
       ))}
 
-      {submit ? <ThankYouMessage/> : <>      <button onClick={handleSubmit}>Submit</button></>}
+      {submit ? <ThankYouMessage {...props}/> : <>      <button onClick={handleSubmit}>Submit</button></>}
  
     </div>
   );

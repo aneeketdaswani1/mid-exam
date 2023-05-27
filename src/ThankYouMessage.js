@@ -1,9 +1,10 @@
 import React from 'react'
 
-function ThankYouMessage() {
+function ThankYouMessage(props) {
   return (
     <div>
-      Thank you For Submitting
+      <h2>Thank you for submitting</h2>
+
     </div>
   )
 }
